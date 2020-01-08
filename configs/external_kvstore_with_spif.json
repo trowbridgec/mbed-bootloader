@@ -111,7 +111,9 @@
             "target.features_remove"            : ["CRYPTOCELL310"],
             "target.macros_remove"              : ["MBEDTLS_CONFIG_HW_SUPPORT"],
             "target.macros_add"                 : ["NRFX_RNG_ENABLED=1", "RNG_ENABLED=1", "NRF_QUEUE_ENABLED=1"],
-            "target.OUTPUT_EXT"                 : "bin"
+            "target.OUTPUT_EXT"                 : "bin",
+            "platform.default-serial-baud-rate" : 230400,
+            "platform.stdio-baud-rate"          : 230400
         }
     }
 }
